@@ -1,3 +1,9 @@
+<div align="center">
+
+<img src="social-preview.png" alt="EMOJI_TO_TEXT — remove, describe, and detect emojis in text" width="100%" />
+
+</div>
+
 # EMOJI_TO_TEXT 😀➡️📝
 
 A simple **command-line Python application** for working with emojis in text.
@@ -36,7 +42,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python emoji_to_text.py
+python main.py
 ```
 
 1. Enter the text you want to work on.
@@ -75,11 +81,12 @@ Please enter a choice (1-5)3
 
 ```
 emoji-to-text/
-├── emoji_to_text.py    # main program
+├── main.py             # main program
 ├── requirements.txt    # dependencies
 ├── README.md           # project documentation
 ├── LICENSE             # MIT license
-└── .gitignore          # files Git should ignore
+├── social-preview.png  # repository banner
+└── _.gitignore         # files Git should ignore
 ```
 
 ## License
